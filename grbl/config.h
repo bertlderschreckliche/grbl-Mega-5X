@@ -72,7 +72,7 @@
 #endif
 #if N_AXIS > 4
   #define AXIS_5 4
-  #define AXIS_5_NAME 'B' // Letter of axis number 5
+  #define AXIS_5_NAME 'Y' // Letter of axis number 5; This should become the cloned Y axis
 #endif
 #if N_AXIS > 5
   #define AXIS_6 5
