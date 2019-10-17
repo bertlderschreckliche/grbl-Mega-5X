@@ -2,6 +2,18 @@
 
 ***
 
+## Updated to use platformio
+
+build using the following commands
+
+```
+$pio run
+```
+Upload to your board using
+
+```
+$pio run --target upload
+
 Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. This version of Grbl runs on an Arduino Mega2560 only.
 
 The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
